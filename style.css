@@ -1,7 +1,9 @@
 body {
-  background-color: white;
+  background-color: 336666;
+  color: #FFFFFF;
   font-family: Helvetica;
   margin: 15% 15%; 
+  background-color: #666666
 }
 
 .exp-header {
@@ -11,9 +13,24 @@ body {
 }
 
 
+a { 
+  color: #66FFCC
+}
+
+
+h1 {
+  text-align: center;
+  border-top: 1px solid #00CCCC;
+  border-bottom: 1px solid #00CCCC;
+  background-color: #00CCCC; 
+  border-radius: 15px 50px 30px 5px;
+}
+
+
 ul {
   padding-bottom: 5%;
 }
+
 
 h2 {
   font-size: 20px;
