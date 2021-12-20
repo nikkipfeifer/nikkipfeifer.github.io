@@ -1,10 +1,14 @@
 body {
   background-color: 336666;
-  color: #FFFFFF;
+  color: #000000;
   font-family: Helvetica;
   margin: 15% 15%; 
   background-color: #666666
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
 }
+
 
 .exp-header {
   text-transform: uppercase;
@@ -14,7 +18,7 @@ body {
 
 
 a { 
-  color: #66FFCC
+  color: #0000CC
 }
 
 
