@@ -9,6 +9,15 @@ body {
 }
 
 
+.item {
+ padding: 8px;
+ background-color: #99999
+ border: 4px solid #99999
+ border-radius: 6px;
+ box-shadow: 0px 2px 6px rgba(0, 0, 0, 0.25)
+}
+
+
 .exp-header {
   text-transform: uppercase;
   border-top: 2px solid;
@@ -22,11 +31,8 @@ a {
 
 
 h1 {
-  text-align: center;
-  border-top: 1px solid #00CCCC;
-  border-bottom: 1px solid #00CCCC;
-  background-color: #00CCCC; 
-  border-radius: 15px 50px 30px 5px;
+  text-align: left;
+  
 }
 
 
@@ -37,9 +43,12 @@ ul {
 
 h2 {
   font-size: 20px;
-  border-top: 2px solid;
   border-bottom: 2px solid;
   padding-top: 5px;
   padding-bottom: 5px;
   text-align: center;
+  border-top: 1px solid #00CCCC;
+  border-bottom: 1px solid #00CCCC;
+  background-color: #00CCCC; 
+  border-radius: 15px 50px 30px 5px;
 }
