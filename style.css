@@ -1,7 +1,7 @@
 body {
   color: #000000;
   font-family: Helvetica;
-  margin: 15% 15%; 
+  margin: 15% 15%;
   background-color: #666666
   background-position: center;
   background-repeat: no-repeat;
@@ -33,6 +33,7 @@ a {
 h1 {
   text-align: left;
   
+  
 }
 
 
@@ -51,4 +52,18 @@ h2 {
   border-bottom: 1px solid #00CCCC;
   background-color: #00CCCC; 
   border-radius: 15px 50px 30px 5px;
+  animation-duration: 3s;
+  animation-name: slidein;
 }
+
+
+@keyframes slidein {
+  from {
+    margin-left: 100%;
+    width: 300%;
+  }
+
+  to {
+    margin-left: 0%;
+    width: 100%;
+  }
